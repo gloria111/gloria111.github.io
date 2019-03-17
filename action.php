@@ -5,9 +5,7 @@
 
 
 $q = isset($_GET["q"]) ? intval($_GET["q"]) : '';
-header("Content-Type:text/html;charset-utf-8");
-header("Access-Conet=utf-8 ");
-header("Access-Control-Allow-Origin: *");
+
 if(empty($q)) {
     echo '请选择一个学期';
     exit;

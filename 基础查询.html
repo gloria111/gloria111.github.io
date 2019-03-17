@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>基础查询</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/> 
+	<link rel="stylesheet" type="text/css" href="style.css"/> 
+	<script type=text/javascript src=调用php.js></script>
+	
+</head>
+<body>
+		<div class="container">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<ul class="nav nav-tabs">
+							<li class="active">
+								 <a href="index.html">首页</a>
+							</li>
+							<li>
+								 <a href="下载界面.html">下载界面</a>
+							</li>
+							<li >
+								 <a href="上传.html">上传</a>
+							</li>
+						   
+						</ul>
+						<h3>
+								这是一套分析系统的基础查询界面.</br></br>
+						</h3>
+						<div class="container-fluid">
+								<div class="row-fluid">
+									<div class="span12">
+										<div class="right">
+										<form class="form-search form-inline">
+											<input class="input-medium search-query" type="text" /> <button type="submit" class="btn">查找</button>
+										</form>
+										<div class="alert">
+												<button type="button" class="close" data-dismiss="alert">×</button>
+											   <h4>
+												   提示!
+											   </h4> <strong>警告!</strong> 请注意你的个人隐私安全.
+										   </div>
+										</div>
+										<div class="left">
+										<ul class="nav nav-list" width="50px">
+											<li class="nav-header">
+												功能列表
+											</li>
+											<li class="active" >
+												<a href="#">按学期检索</a>
+											</li>
+											<li>
+												<a href="#">按班级检索</a>
+											</li>
+											<li>
+												<a href="#">按时间检索</a>
+											</li>
+											<li class="nav-header">
+											其他功能
+											</li>
+											<li>
+												<a href="#">资料</a>
+											</li>
+											<li>
+												<a href="#">设置</a>
+											</li>
+											<li class="divider">
+											</li>
+											<li>
+												<a href="#">帮助</a>
+											</li>
+										</ul>
+									</div>
+									<div class="left" > </div>
+									<div class="relative_left"   >
+										<form action="" class="form"> 
+											<!-- <label>请选择一个学期：
+											<select name="term" onchange="showscore(this.value)" style="font-family:Verdana, Arial, Helvetica, sans-serif;">
+											<option value="t_first">第一学期</option>
+											<option value="t_second ">第二学期</option>
+											<option value="t_third">第三学期</option>
+											<option value="t_fourth">第四学期</option>
+											<option value="t_fifth">第五学期</option>
+											<option value="t_sixth">第六学期</option>
+											</select>
+											</label>
+											</form>
+										
+											<label>请选择一个班级：
+												<select name="class" onchange="showscore(this.value)" style="font-family:Verdana, Arial, Helvetica, sans-serif;">
+												<option value="c_first">1501</option>
+												<option value="c_second ">1502</option>
+												</select>
+												</label>
+												</form>
+												<br />
+											<label>请选择一个： -->
+													<select name="score" onchange="showscore(this.value)" style="font-family:Verdana, Arial, Helvetica, sans-serif;">
+													<option value="1">1501</option>
+													<option value="2 ">1502</option>
+													</select>
+													</label>
+													</form>
+													<br />	
+											<div id="txtHint">成绩信息将在这里列出 ...</div>
+									
+											
+									</div>
+									
+									<table class="table">
+										<thead>
+											<tr>
+												<th>
+													学号
+												</th>
+												<th>
+													姓名
+												</th>
+												<th>
+													课程
+												</th>
+												<th>
+													分数
+												</th>
+												
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													1
+												</td>
+												<td>
+													TB - Monthly
+												</td>
+												<td>
+													01/04/2012
+												</td>
+												<td>
+													Default
+												</td>
+											</tr>
+											<tr class="success">
+												<td>
+													1
+												</td>
+												<td>
+													TB - Monthly
+												</td>
+												<td>
+													01/04/2012
+												</td>
+												<td>
+													Approved
+												</td>
+											</tr>
+											<tr class="error">
+												<td>
+													2
+												</td>
+												<td>
+													TB - Monthly
+												</td>
+												<td>
+													02/04/2012
+												</td>
+												<td>
+													Declined
+												</td>
+											</tr>
+											<tr class="warning">
+												<td>
+													3
+												</td>
+												<td>
+													TB - Monthly
+												</td>
+												<td>
+													03/04/2012
+												</td>
+												<td>
+													Pending
+												</td>
+											</tr>
+											<tr class="info">
+												<td>
+													4
+												</td>
+												<td>
+													TB - Monthly
+												</td>
+												<td>
+													04/04/2012
+												</td>
+												<td>
+													Call in to confirm
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div></div>
+							</div>
+					</div>
+				</div>
+			</div>
+</body>
+</html>

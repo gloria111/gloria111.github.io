@@ -1,0 +1,21 @@
+.left{
+    float:left;
+    width: 150px; 
+}
+.right{
+    float:right;
+}
+.relative_left{
+  
+        float: left;
+        left: 50px;
+      
+
+}
+.table{
+    width:60%;
+}
+.form{
+    clear:both;
+}
+/* display: inline-block    div边框随文字的长度而变化，且div不会换行 */
